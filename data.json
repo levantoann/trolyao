@@ -1,0 +1,53 @@
+{"data": [
+    {"tag": "greeting",
+     "patterns": ["Xin chào người máy", "Chào", "Chào bạn", "Buổi sáng vui vẻ", "Ngày mới tốt lành", "Buổi trưa vui vẻ","Buổi tối an lành","Chào trợ lí ảo","Xin chào trợ lí","Chào bạn trợ lí"],
+     "responses": ["chào"],
+     "context_set": ""
+    },
+    {"tag": "day",
+     "patterns": ["Hôm nay là ngày mấy", "Bữa nay là ngày gì", "Ngày hôm nay là ngày bao nhiêu", "Hiện tại là ngày mấy", "Ngày tháng năm hiện tại","Ngày hôm nay","Tháng này là tháng mấy","Năm hiện tại"],
+     "responses": ["ngày"],
+     "context_set": ""
+     
+    },
+    {"tag": "hour",
+     "patterns": ["Mấy giờ rồi", "Giờ hiện tại", "Thời gian hiện tại", "Hiện giờ là mấy giờ", "Bây giờ là mấy giờ"],
+     "responses": ["giờ"],
+     "context_set": ""
+     
+    },
+    {"tag": "thank",
+     "patterns": ["Cảm ơn thật nhiều", "Chúc bạn làm việc tốt", "Cảm ơn trợ lí ảo","Cảm ơn bạn","Chúc bạn vui vẻ"],
+     "responses": ["Không có gì nè, đó là công việc của tôi", "Việc của tôi là phục vụ bạn", "Đừng nên quá khách sáo, không có gì","Rất vui lòng với bạn"],
+     "context_set": ""
+    
+    },
+    {"tag": "mail",
+     "patterns": ["Tôi muốn gửi Gmail", "Gửi email cho tôi", "Soạn email cho tôi", "Tôi muốn gửi Mail"],
+     "responses": ["Email"],
+     "context_set": ""
+    
+    },
+    {"tag": "goodbye",
+     "patterns": ["Hẹn gặp lại", "Chào tạm biệt", "Bye trợ lí ảo","Bye bye","Tạm biệt bạn"],
+     "responses": ["Chào bạn hẹn gặp lại bạn sớm nhất","Gặp lại sau nhé","Vâng chào bạn"],
+     "context_set": ""
+    },
+    {"tag": "sad",
+        "patterns": ["Hôm nay tôi buồn", "Chán quá", "Mệt mỏi thật sự","Ngày gì thật nhàm chán","Tôi quá buồn"],
+        "responses": ["Không sao tôi sẽ an ủi bạn mà","Đừng buồn và chán nữa nhé","Cố lên tôi tin bạn làm được"],
+        "context_set": ""
+    },
+    {"tag": "love",
+        "patterns": ["Thả thính đi", "Có thính gì không", "Nói về tình yêu","Yêu tôi không","Bạn thả thính tôi đi"],
+        "responses": ["Ô tô thì đã có chỗ đỗ,còn tôi thì đã đỗ trong tim bạn","I love you 3000","Ngoài trời đang đổ cơn mưa. Vậy, bạn đã đổ tôi chưa","Thiếu ăn, chim tìm con sâu. Thiếu tôi, bạn sầu con tim!"],
+        "context_set": ""
+    },
+    {"tag": "story",
+        "patterns": ["Kể chuyện đi", "Nói gì đó vui được không", "Nói vui","Kể chuyện","Muốn nghe kể chuyện"],
+        "responses": ["Một con gà mái than với gà trống: Anh ơi, tại sao con người có vú mà em lại không có?.Gà trống thủng thẳng:Em có để làm gì ! Anh có tay đâu ?","Cuộc sống vốn ngắn ngủi, vì vậy bạn hãy luôn cười khi còn đủ răng.","Có hôm tôi trêu con gái 4 tuổi của mình: Nhà mình sắp nuôi một con lợn, cần phân chia công việc, một người sẽ cho nó ăn mỗi ngày, một người thì dọn phòng nó, một người thì tắm cho nó. Con chọn việc gì? Nó đáp ngay:Con làm lợn."],
+        "context_set": ""
+    }
+
+]
+}
